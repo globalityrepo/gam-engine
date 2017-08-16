@@ -8,7 +8,7 @@
 
 	<servlet>
 		<servlet-name>ResubServlet</servlet-name>
-		<servlet-class>br.com.globality.gtm.engine.web.api.servlet.ResubServlet</servlet-class>
+		<servlet-class>br.com.globality.gam.engine.web.api.servlet.ResubServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>

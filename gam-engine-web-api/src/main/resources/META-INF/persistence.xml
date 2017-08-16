@@ -14,10 +14,10 @@
              xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd
                       http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd">
 
-  <persistence-unit name="br.com.globality.gtm" transaction-type="JTA">
+  <persistence-unit name="br.com.globality.gam" transaction-type="JTA">
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     
-    <jta-data-source>java:/jdbc/gtm-ds</jta-data-source>
+    <jta-data-source>java:/jdbc/gam-ds</jta-data-source>
     <mapping-file>META-INF/orm.xml</mapping-file>
         
     <properties>
